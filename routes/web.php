@@ -22,3 +22,5 @@ Route::get('about', function () {
 Route::get('reporting', function () {
     return 'Reporting page';
 });
+
+Route::resource('reports', 'ReportsController');
