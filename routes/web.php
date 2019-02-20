@@ -23,4 +23,8 @@ Route::get('reporting', function () {
     return 'Reporting page';
 });
 
+Route::get('test', function (){
+    return 'test';
+});
+
 Route::resource('reports', 'ReportsController');
